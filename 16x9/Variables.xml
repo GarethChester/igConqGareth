@@ -65,6 +65,25 @@
 		<value condition="String.IsEqual(ListItem.Country,South Korea) + Integer.IsLess(ListItem.Year,1950)">Flags/South Korea 1948-1949.png</value>
 		<value condition="String.IsEqual(ListItem.Country,South Korea) + Integer.IsLess(ListItem.Year,1984)">Flags/South Korea 1949-1984.png</value>
 		<value condition="String.IsEqual(ListItem.Country,South Korea) + Integer.IsLess(ListItem.Year,1998)">Flags/South Korea 1984-1997.png</value>
+		<value condition="String.IsEqual(ListItem.Country,Germany) + Integer.IsLess(ListItem.Year,1919)">Flags/Germany 1866-1918.png</value>
+		<value condition="String.IsEqual(ListItem.Country,Germany) + Integer.IsLess(ListItem.Year,1933)">Flags/Germany 1918-1933.png</value>
+		<value condition="String.IsEqual(ListItem.Country,Germany) + Integer.IsLess(ListItem.Year,1936)">Flags/Germany 1933-1935.png</value>
+		<value condition="String.IsEqual(ListItem.Country,Germany) + Integer.IsLess(ListItem.Year,1946)">Flags/Germany 1935-1945.png</value>
+		<value condition="String.IsEqual(ListItem.Country,Spain) + Integer.IsLess(ListItem.Year,1507)">Flags/Spain 1475-1506.png</value>
+		<value condition="String.IsEqual(ListItem.Country,Spain) + Integer.IsLess(ListItem.Year,1785)">Flags/Spain 1506-1875.png</value>
+		<value condition="String.IsEqual(ListItem.Country,Spain) + Integer.IsLess(ListItem.Year,1873)">Flags/Spain 1785-1873 1875-1931.png</value>
+		<value condition="String.IsEqual(ListItem.Country,Spain) + Integer.IsLess(ListItem.Year,1875)">Flags/Spain 1873-1875.png</value>
+		<value condition="String.IsEqual(ListItem.Country,Spain) + Integer.IsLess(ListItem.Year,1931)">Flags/Spain 1785-1873 1875-1931.png</value>
+		<value condition="String.IsEqual(ListItem.Country,Spain) + Integer.IsLess(ListItem.Year,1939)">Flags/Spain 1931-1939.png</value>
+		<value condition="String.IsEqual(ListItem.Country,Spain) + Integer.IsLess(ListItem.Year,1946)">Flags/Spain 1939-1945.png</value>
+		<value condition="String.IsEqual(ListItem.Country,Spain) + Integer.IsLess(ListItem.Year,1977)">Flags/Spain 1945-1977.png</value>
+		<value condition="String.IsEqual(ListItem.Country,Spain) + Integer.IsLess(ListItem.Year,1982)">Flags/Spain 1977-1981.png</value>
+		<value condition="String.IsEqual(ListItem.Country,Ireland) + Integer.IsLess(ListItem.Year,1542)">Flags/Ireland 1386-1541.png</value>
+		<value condition="String.IsEqual(ListItem.Country,Ireland) + Integer.IsLess(ListItem.Year,1916)">Flags/Ireland 1542-1801.png</value>
+		<value condition="String.IsEqual(ListItem.Country,USSR) + Integer.IsLess(ListItem.Year,1924)">Flags/USSR 1922-1923.png</value>
+		<value condition="String.IsEqual(ListItem.Country,USSR) + Integer.IsLess(ListItem.Year,1937)">Flags/USSR 1924-1926.png</value>
+		<value condition="String.IsEqual(ListItem.Country,USSR) + Integer.IsLess(ListItem.Year,1956)">Flags/USSR 1936-1955.png</value>
+		<value condition="String.IsEqual(ListItem.Country,USSR) + Integer.IsLess(ListItem.Year,1981)">Flags/USSR 1955-1980.png</value>
 		<value>Flags/$INFO[ListItem.Country].png</value>
 	</variable>
 	
